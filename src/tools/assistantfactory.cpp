@@ -40,6 +40,10 @@
 #include "modbus/modbusassistant.h"
 #endif
 
+#if X_ENABLE_MODEM
+#include "modem/modemassistant.h"
+#endif
+
 #if X_ENABLE_Q_HEX_EDIT
 #include "hexeditor/hexeditor.h"
 #endif
@@ -70,6 +74,9 @@ AssistantFactory::AssistantFactory(QObject* parent)
 #ifdef X_ENABLE_SERIALBUS
     addAssistant<CanBusAssistant>(AssistantTypeCANBus, tr("CAN Bus Assistant"));
     addAssistant<ModbusAssistant>(AssistantTypeModbus, tr("Modbus Assistant"));
+#endif
+#if X_ENABLE_MODEM
+    addAssistant<ModemAssistant>(AssistantTypeModem, tr("Modem Assistant"));
 #endif
 #if X_ENABLE_Q_HEX_EDIT
     addAssistant<HexEditor>(AssistantType3rdHexEdit, tr("Hex Editor"));

@@ -35,6 +35,7 @@ private:
         AssistantTypeTFTPServer,
         AssistantTypeCANBus = 100,
         AssistantTypeModbus,
+        AssistantTypeModem,
 
         AssistantType3rdHexEdit = 1000
     };
