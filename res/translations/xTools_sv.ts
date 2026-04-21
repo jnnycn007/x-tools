@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>Ta Script</translation>
+        <translation type="vanished">Ta Script</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>Ramens serienummer</translation>
+        <translation type="vanished">Ramens serienummer</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>XYModemsändare</translation>
+        <translation type="vanished">XYModemsändare</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>Tabellparametrar</translation>
+        <translation type="vanished">Tabellparametrar</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>Strängparametrar</translation>
+        <translation type="vanished">Strängparametrar</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>Standard Lua-skript</translation>
+        <translation type="vanished">Standard Lua-skript</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>Checksum Lua Script</translation>
+        <translation type="vanished">Checksum Lua Script</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Lua Script (sträng)</translation>
+        <translation type="vanished">Lua Script (sträng)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>Behöver starta om</translation>
+        <translation type="vanished">Behöver starta om</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>Operationen måste startas om till genomförd, starta om programmet nu?</translation>
+        <translation type="vanished">Operationen måste startas om till genomförd, starta om programmet nu?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(Starta om din applikation manuellt.)</translation>
+        <translation type="vanished">(Starta om din applikation manuellt.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>Dataposter</translation>
+        <translation type="vanished">Dataposter</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Söka</translation>
+        <translation type="vanished">Söka</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>Ta Script</translation>
+        <translation type="vanished">Ta Script</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>Linjediagram</translation>
+        <translation type="vanished">Linjediagram</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>Stapeldiagram</translation>
+        <translation type="vanished">Stapeldiagram</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>XY-modemmottagare</translation>
+        <translation type="vanished">XY-modemmottagare</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>Förinställd datalista</translation>
+        <translation type="vanished">Förinställd datalista</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>Protokollfabrik</translation>
+        <translation type="vanished">Protokollfabrik</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Varning</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">Ta Script</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>Protokoll</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>Dölj skriptpaneler</translation>
+        <translation type="vanished">Dölj skriptpaneler</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>Visa skriptpaneler</translation>
+        <translation type="vanished">Visa skriptpaneler</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>Paneler</translation>
+        <translation type="vanished">Paneler</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>Dölj/visa paneler</translation>
+        <translation type="vanished">Dölj/visa paneler</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>Redigera data</translation>
+        <translation type="vanished">Redigera data</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varning</translation>
+        <translation type="vanished">Varning</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>Gruppnamnet får inte vara tomt.</translation>
+        <translation type="vanished">Gruppnamnet får inte vara tomt.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>Kolumnerna får inte vara tomma.</translation>
+        <translation type="vanished">Kolumnerna får inte vara tomma.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>Gruppens namn</translation>
+        <translation type="vanished">Gruppens namn</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>Skicka grupper</translation>
+        <translation type="vanished">Skicka grupper</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Manus</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>Ny skript</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>Vänligen ange skriptnamnet:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>Stoppa skriptet</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>Kör skriptet</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>TFTP-klient</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>Serveradress</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>Spara filen</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>Ladda ner</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>Ladda ner filen</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>Uppladdningsförlopp</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>Ladda upp fil</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>Bläddra</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>Nedladdningsförlopp</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>Ladda upp</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>Bitrate switch</translation>
+        <translation type="vanished">Bitrate switch</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>Datavy</translation>
+        <translation type="vanished">Datavy</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>Fråga</translation>
+        <translation type="vanished">Fråga</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>Ogiltigt ram-ID.</translation>
+        <translation type="vanished">Ogiltigt ram-ID.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>Dataram</translation>
+        <translation type="vanished">Dataram</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>Remote Request Frame</translation>
+        <translation type="vanished">Remote Request Frame</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>Felram</translation>
+        <translation type="vanished">Felram</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7243,11 +7258,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Client</source>
-        <translation>Klient</translation>
+        <translation type="vanished">Klient</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation>Server</translation>
+        <translation type="vanished">Server</translation>
     </message>
 </context>
 <context>
@@ -7636,30 +7651,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>Felsökning</translation>
+        <translation type="vanished">Felsökning</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varning</translation>
+        <translation type="vanished">Varning</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Kritisk</translation>
+        <translation type="vanished">Kritisk</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>Felsökning</translation>
+        <translation type="vanished">Felsökning</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varning</translation>
+        <translation type="vanished">Varning</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Kritisk</translation>
+        <translation type="vanished">Kritisk</translation>
     </message>
 </context>
 <context>
@@ -8065,34 +8080,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>System</translation>
+        <translation type="vanished">System</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Ljus</translation>
+        <translation type="vanished">Ljus</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Mörk</translation>
+        <translation type="vanished">Mörk</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>Färgschema</translation>
+        <translation type="vanished">Färgschema</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Mörk</translation>
+        <translation type="vanished">Mörk</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Ljus</translation>
+        <translation type="vanished">Ljus</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>System</translation>
+        <translation type="vanished">System</translation>
     </message>
 </context>
 <context>

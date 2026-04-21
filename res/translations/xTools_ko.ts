@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>스크립트 가져오기</translation>
+        <translation type="vanished">스크립트 가져오기</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>프레임 일련번호</translation>
+        <translation type="vanished">프레임 일련번호</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>XY모뎀 송신기</translation>
+        <translation type="vanished">XY모뎀 송신기</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>테이블 매개변수</translation>
+        <translation type="vanished">테이블 매개변수</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>문자열 매개변수</translation>
+        <translation type="vanished">문자열 매개변수</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>기본 Lua 스크립트</translation>
+        <translation type="vanished">기본 Lua 스크립트</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>체크섬 Lua 스크립트</translation>
+        <translation type="vanished">체크섬 Lua 스크립트</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>루아 스크립트(문자열)</translation>
+        <translation type="vanished">루아 스크립트(문자열)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>재부팅해야 함</translation>
+        <translation type="vanished">재부팅해야 함</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>작업을 적용하려면 재부팅해야 합니다. 지금 애플리케이션을 재부팅하시겠습니까?</translation>
+        <translation type="vanished">작업을 적용하려면 재부팅해야 합니다. 지금 애플리케이션을 재부팅하시겠습니까?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(애플리케이션을 수동으로 재부팅하세요.)</translation>
+        <translation type="vanished">(애플리케이션을 수동으로 재부팅하세요.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>데이터 기록</translation>
+        <translation type="vanished">데이터 기록</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>찾다</translation>
+        <translation type="vanished">찾다</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>스크립트 가져오기</translation>
+        <translation type="vanished">스크립트 가져오기</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>꺾은선형 차트</translation>
+        <translation type="vanished">꺾은선형 차트</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>막대 차트</translation>
+        <translation type="vanished">막대 차트</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>XY 모뎀 수신기</translation>
+        <translation type="vanished">XY 모뎀 수신기</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>프리셋 데이터 목록</translation>
+        <translation type="vanished">프리셋 데이터 목록</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>프로토콜 팩토리</translation>
+        <translation type="vanished">프로토콜 팩토리</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>경고</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">스크립트 가져오기</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>규약</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>스크립트 패널 숨기기</translation>
+        <translation type="vanished">스크립트 패널 숨기기</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>스크립트 패널 표시</translation>
+        <translation type="vanished">스크립트 패널 표시</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>패널</translation>
+        <translation type="vanished">패널</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>패널 숨기기/표시</translation>
+        <translation type="vanished">패널 숨기기/표시</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>데이터 편집</translation>
+        <translation type="vanished">데이터 편집</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>경고</translation>
+        <translation type="vanished">경고</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>그룹 이름은 비워둘 수 없습니다.</translation>
+        <translation type="vanished">그룹 이름은 비워둘 수 없습니다.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>열은 비워둘 수 없습니다.</translation>
+        <translation type="vanished">열은 비워둘 수 없습니다.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>그룹 이름</translation>
+        <translation type="vanished">그룹 이름</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>그룹 보내기</translation>
+        <translation type="vanished">그룹 보내기</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>스크립트</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>새 스크립트</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>스크립트 이름을 입력하십시오:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>스크립트 중지</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>스크립트 실행</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>TFTP 클라이언트</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>서버 주소</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>파일 저장</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>다운로드</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>파일 다운로드</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>업로드 진행 상황</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>파일 업로드</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>먹다</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>다운로드 진행 상황</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>업로드</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>비트레이트 스위치</translation>
+        <translation type="vanished">비트레이트 스위치</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>데이터 보기</translation>
+        <translation type="vanished">데이터 보기</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>질문</translation>
+        <translation type="vanished">질문</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>프레임 ID가 잘못되었습니다.</translation>
+        <translation type="vanished">프레임 ID가 잘못되었습니다.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>데이터 프레임</translation>
+        <translation type="vanished">데이터 프레임</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>원격 요청 프레임</translation>
+        <translation type="vanished">원격 요청 프레임</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>오류 프레임</translation>
+        <translation type="vanished">오류 프레임</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7238,7 +7253,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Server</source>
-        <translation>섬기는 사람</translation>
+        <translation type="vanished">섬기는 사람</translation>
     </message>
 </context>
 <context>
@@ -7627,30 +7642,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>디버그</translation>
+        <translation type="vanished">디버그</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>경고</translation>
+        <translation type="vanished">경고</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>비판적인</translation>
+        <translation type="vanished">비판적인</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>디버그</translation>
+        <translation type="vanished">디버그</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>경고</translation>
+        <translation type="vanished">경고</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>비판적인</translation>
+        <translation type="vanished">비판적인</translation>
     </message>
 </context>
 <context>
@@ -8056,34 +8071,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>체계</translation>
+        <translation type="vanished">체계</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>빛</translation>
+        <translation type="vanished">빛</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>어두운</translation>
+        <translation type="vanished">어두운</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>색 구성표</translation>
+        <translation type="vanished">색 구성표</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>어두운</translation>
+        <translation type="vanished">어두운</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>빛</translation>
+        <translation type="vanished">빛</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>체계</translation>
+        <translation type="vanished">체계</translation>
     </message>
 </context>
 <context>

@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>拍攝腳本</translation>
+        <translation type="vanished">拍攝腳本</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>框架序號</translation>
+        <translation type="vanished">框架序號</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>XY調變解調器發射器</translation>
+        <translation type="vanished">XY調變解調器發射器</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>表參數</translation>
+        <translation type="vanished">表參數</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>字串參數</translation>
+        <translation type="vanished">字串參數</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>預設 Lua 腳本</translation>
+        <translation type="vanished">預設 Lua 腳本</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>校驗和 Lua 腳本</translation>
+        <translation type="vanished">校驗和 Lua 腳本</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Lua腳本（字串）</translation>
+        <translation type="vanished">Lua腳本（字串）</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>需要重新啟動</translation>
+        <translation type="vanished">需要重新啟動</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>該操作需要重新啟動才能生效，現在重新啟動應用程式嗎？</translation>
+        <translation type="vanished">該操作需要重新啟動才能生效，現在重新啟動應用程式嗎？</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>（請手動重新啟動您的應用程式。）</translation>
+        <translation type="vanished">（請手動重新啟動您的應用程式。）</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>數據記錄</translation>
+        <translation type="vanished">數據記錄</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>搜尋</translation>
+        <translation type="vanished">搜尋</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>拍攝腳本</translation>
+        <translation type="vanished">拍攝腳本</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>折線圖</translation>
+        <translation type="vanished">折線圖</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>長條圖</translation>
+        <translation type="vanished">長條圖</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>XY-數據機接收器</translation>
+        <translation type="vanished">XY-數據機接收器</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>預設資料列表</translation>
+        <translation type="vanished">預設資料列表</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>協議工廠</translation>
+        <translation type="vanished">協議工廠</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>警告</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">拍攝腳本</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>協定</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>隱藏腳本面板</translation>
+        <translation type="vanished">隱藏腳本面板</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>顯示腳本面板</translation>
+        <translation type="vanished">顯示腳本面板</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>面板</translation>
+        <translation type="vanished">面板</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>隱藏/顯示面板</translation>
+        <translation type="vanished">隱藏/顯示面板</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>編輯數據</translation>
+        <translation type="vanished">編輯數據</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="vanished">警告</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>組名不能為空。</translation>
+        <translation type="vanished">組名不能為空。</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>列不能為空。</translation>
+        <translation type="vanished">列不能為空。</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>團體名稱</translation>
+        <translation type="vanished">團體名稱</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>發送群組</translation>
+        <translation type="vanished">發送群組</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>…</translation>
+        <translation type="vanished">…</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>腳本</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>新建腳本</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>請輸入腳本名稱：</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>停止腳本</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>運行腳本</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>TFTP客戶端</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>伺服器位址</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>儲存檔案</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>下載</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>下載文件</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>上傳進度</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>上傳文件</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>瀏覽</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>下載進度</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>上傳</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>碼率切換</translation>
+        <translation type="vanished">碼率切換</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>資料視圖</translation>
+        <translation type="vanished">資料視圖</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>問題</translation>
+        <translation type="vanished">問題</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>幀 ID 無效。</translation>
+        <translation type="vanished">幀 ID 無效。</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>數據框</translation>
+        <translation type="vanished">數據框</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>遠端請求幀</translation>
+        <translation type="vanished">遠端請求幀</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>錯誤訊框</translation>
+        <translation type="vanished">錯誤訊框</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7183,7 +7198,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="206"/>
         <source>Export CoAP Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">匯出 CoAP 配置</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="208"/>
@@ -7238,7 +7253,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Server</source>
-        <translation>伺服器</translation>
+        <translation type="vanished">伺服器</translation>
     </message>
 </context>
 <context>
@@ -7627,30 +7642,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>偵錯</translation>
+        <translation type="vanished">偵錯</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="vanished">警告</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>批判的</translation>
+        <translation type="vanished">批判的</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>偵錯</translation>
+        <translation type="vanished">偵錯</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="vanished">警告</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>批判的</translation>
+        <translation type="vanished">批判的</translation>
     </message>
 </context>
 <context>
@@ -8056,34 +8071,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>系統</translation>
+        <translation type="vanished">系統</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>光</translation>
+        <translation type="vanished">光</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>黑暗的</translation>
+        <translation type="vanished">黑暗的</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>配色方案</translation>
+        <translation type="vanished">配色方案</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>黑暗的</translation>
+        <translation type="vanished">黑暗的</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>光</translation>
+        <translation type="vanished">光</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>系統</translation>
+        <translation type="vanished">系統</translation>
     </message>
 </context>
 <context>

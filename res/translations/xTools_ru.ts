@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>Взять сценарий</translation>
+        <translation type="vanished">Взять сценарий</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>Серийный номер корпуса</translation>
+        <translation type="vanished">Серийный номер корпуса</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>XYМодем-передатчик</translation>
+        <translation type="vanished">XYМодем-передатчик</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>Параметры таблицы</translation>
+        <translation type="vanished">Параметры таблицы</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>Строковые параметры</translation>
+        <translation type="vanished">Строковые параметры</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>Lua-скрипт по умолчанию</translation>
+        <translation type="vanished">Lua-скрипт по умолчанию</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>Контрольная сумма Lua-скрипта</translation>
+        <translation type="vanished">Контрольная сумма Lua-скрипта</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Lua-скрипт (строка)</translation>
+        <translation type="vanished">Lua-скрипт (строка)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>Необходимо перезагрузить</translation>
+        <translation type="vanished">Необходимо перезагрузить</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>Для выполнения операции необходимо перезагрузить компьютер, перезагрузить приложение сейчас?</translation>
+        <translation type="vanished">Для выполнения операции необходимо перезагрузить компьютер, перезагрузить приложение сейчас?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(Пожалуйста, перезагрузите приложение вручную.)</translation>
+        <translation type="vanished">(Пожалуйста, перезагрузите приложение вручную.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>Записи данных</translation>
+        <translation type="vanished">Записи данных</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Поиск</translation>
+        <translation type="vanished">Поиск</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>Взять сценарий</translation>
+        <translation type="vanished">Взять сценарий</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>Линейный график</translation>
+        <translation type="vanished">Линейный график</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>Гистограмма</translation>
+        <translation type="vanished">Гистограмма</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>XY-модем-приемник</translation>
+        <translation type="vanished">XY-модем-приемник</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>ИО</translation>
+        <translation type="vanished">ИО</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>Список предустановленных данных</translation>
+        <translation type="vanished">Список предустановленных данных</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>Фабрика протоколов</translation>
+        <translation type="vanished">Фабрика протоколов</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Предупреждение</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">Взять сценарий</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>Протокол</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>Скрыть панели сценариев</translation>
+        <translation type="vanished">Скрыть панели сценариев</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>Показать панели сценариев</translation>
+        <translation type="vanished">Показать панели сценариев</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>Панели</translation>
+        <translation type="vanished">Панели</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>Скрыть/показать панели</translation>
+        <translation type="vanished">Скрыть/показать панели</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>Редактировать данные</translation>
+        <translation type="vanished">Редактировать данные</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>Предупреждение</translation>
+        <translation type="vanished">Предупреждение</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>Имя группы не может быть пустым.</translation>
+        <translation type="vanished">Имя группы не может быть пустым.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>Столбцы не могут быть пустыми.</translation>
+        <translation type="vanished">Столбцы не могут быть пустыми.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>Название группы</translation>
+        <translation type="vanished">Название группы</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>Отправить группы</translation>
+        <translation type="vanished">Отправить группы</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Скрипт</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>Новый скрипт</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>Пожалуйста, введите имя скрипта:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>Остановить скрипт</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>Запустить скрипт</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>TFTP-клиент</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>Адрес сервера</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>Сохранить файл</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>Скачать</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>Скачать файл</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>Ход загрузки</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>Загрузить файл</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>Просматривать</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>Прогресс загрузки</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>Загрузить</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>Переключатель битрейта</translation>
+        <translation type="vanished">Переключатель битрейта</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>Просмотр данных</translation>
+        <translation type="vanished">Просмотр данных</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>Вопрос</translation>
+        <translation type="vanished">Вопрос</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>Неверный идентификатор кадра.</translation>
+        <translation type="vanished">Неверный идентификатор кадра.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>Кадр данных</translation>
+        <translation type="vanished">Кадр данных</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>Кадр удаленного запроса</translation>
+        <translation type="vanished">Кадр удаленного запроса</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>Ошибка кадра</translation>
+        <translation type="vanished">Ошибка кадра</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7243,11 +7258,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Client</source>
-        <translation>Клиент</translation>
+        <translation type="vanished">Клиент</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation>Сервер</translation>
+        <translation type="vanished">Сервер</translation>
     </message>
 </context>
 <context>
@@ -7636,30 +7651,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>Отлаживать</translation>
+        <translation type="vanished">Отлаживать</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Предупреждение</translation>
+        <translation type="vanished">Предупреждение</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Критический</translation>
+        <translation type="vanished">Критический</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>Отлаживать</translation>
+        <translation type="vanished">Отлаживать</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Предупреждение</translation>
+        <translation type="vanished">Предупреждение</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Критический</translation>
+        <translation type="vanished">Критический</translation>
     </message>
 </context>
 <context>
@@ -8065,34 +8080,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>Система</translation>
+        <translation type="vanished">Система</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Свет</translation>
+        <translation type="vanished">Свет</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Темный</translation>
+        <translation type="vanished">Темный</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>Цветовая схема</translation>
+        <translation type="vanished">Цветовая схема</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Темный</translation>
+        <translation type="vanished">Темный</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Свет</translation>
+        <translation type="vanished">Свет</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>Система</translation>
+        <translation type="vanished">Система</translation>
     </message>
 </context>
 <context>

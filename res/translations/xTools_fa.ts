@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>اسکریپت بگیر</translation>
+        <translation type="vanished">اسکریپت بگیر</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>شماره سریال قاب</translation>
+        <translation type="vanished">شماره سریال قاب</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>فرستنده XYModem</translation>
+        <translation type="vanished">فرستنده XYModem</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>پارامترهای جدول</translation>
+        <translation type="vanished">پارامترهای جدول</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>پارامترهای رشته</translation>
+        <translation type="vanished">پارامترهای رشته</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>اسکریپت پیش‌فرض Lua</translation>
+        <translation type="vanished">اسکریپت پیش‌فرض Lua</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>اسکریپت Checksum Lua</translation>
+        <translation type="vanished">اسکریپت Checksum Lua</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>اسکریپت لوا (رشته)</translation>
+        <translation type="vanished">اسکریپت لوا (رشته)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>نیاز به راه اندازی مجدد</translation>
+        <translation type="vanished">نیاز به راه اندازی مجدد</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>عملیات نیاز به راه اندازی مجدد برای انجام، راه اندازی مجدد برنامه در حال حاضر؟</translation>
+        <translation type="vanished">عملیات نیاز به راه اندازی مجدد برای انجام، راه اندازی مجدد برنامه در حال حاضر؟</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(لطفاً برنامه خود را به صورت دستی راه اندازی مجدد کنید.)</translation>
+        <translation type="vanished">(لطفاً برنامه خود را به صورت دستی راه اندازی مجدد کنید.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>سوابق داده ها</translation>
+        <translation type="vanished">سوابق داده ها</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>جستجو کنید</translation>
+        <translation type="vanished">جستجو کنید</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>اسکریپت بگیر</translation>
+        <translation type="vanished">اسکریپت بگیر</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>نمودار خطی</translation>
+        <translation type="vanished">نمودار خطی</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>نمودار میله ای</translation>
+        <translation type="vanished">نمودار میله ای</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>گیرنده مودم XY</translation>
+        <translation type="vanished">گیرنده مودم XY</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>لیست داده های از پیش تعیین شده</translation>
+        <translation type="vanished">لیست داده های از پیش تعیین شده</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>کارخانه پروتکل</translation>
+        <translation type="vanished">کارخانه پروتکل</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>هشدار</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">اسکریپت بگیر</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>پروتکل</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>پنهان کردن پانل های اسکریپت</translation>
+        <translation type="vanished">پنهان کردن پانل های اسکریپت</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>نمایش پانل های اسکریپت</translation>
+        <translation type="vanished">نمایش پانل های اسکریپت</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>پانل ها</translation>
+        <translation type="vanished">پانل ها</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>پنهان کردن/نمایش پانل ها</translation>
+        <translation type="vanished">پنهان کردن/نمایش پانل ها</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>ویرایش داده ها</translation>
+        <translation type="vanished">ویرایش داده ها</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>هشدار</translation>
+        <translation type="vanished">هشدار</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>نام گروه نمی تواند خالی باشد.</translation>
+        <translation type="vanished">نام گروه نمی تواند خالی باشد.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>ستون ها نمی توانند خالی باشند.</translation>
+        <translation type="vanished">ستون ها نمی توانند خالی باشند.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>نام گروه</translation>
+        <translation type="vanished">نام گروه</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>ارسال گروه ها</translation>
+        <translation type="vanished">ارسال گروه ها</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>اسکریپت</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>اسکریپت جدید</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>لطفاً نام اسکریپت را وارد کنید:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>متوقف کردن اسکریپت</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>اجرا کردن اسکریپت</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>کلاینت TFTP</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>آدرس سرور</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>ذخیره فایل</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>دانلود کنید</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>دانلود فایل</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>پیشرفت آپلود</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>آپلود فایل</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>مرور کنید</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>پیشرفت دانلود</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>آپلود کنید</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>سوئیچ میزان بیت</translation>
+        <translation type="vanished">سوئیچ میزان بیت</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>مشاهده داده ها</translation>
+        <translation type="vanished">مشاهده داده ها</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>سوال</translation>
+        <translation type="vanished">سوال</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>شناسه قاب نامعتبر است.</translation>
+        <translation type="vanished">شناسه قاب نامعتبر است.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>چارچوب داده</translation>
+        <translation type="vanished">چارچوب داده</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>قاب درخواست از راه دور</translation>
+        <translation type="vanished">قاب درخواست از راه دور</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>قاب خطا</translation>
+        <translation type="vanished">قاب خطا</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7243,11 +7258,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Client</source>
-        <translation>مشتری</translation>
+        <translation type="vanished">مشتری</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation>سرور</translation>
+        <translation type="vanished">سرور</translation>
     </message>
 </context>
 <context>
@@ -7636,30 +7651,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>اشکال زدایی</translation>
+        <translation type="vanished">اشکال زدایی</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>هشدار</translation>
+        <translation type="vanished">هشدار</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>انتقادی</translation>
+        <translation type="vanished">انتقادی</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>اشکال زدایی</translation>
+        <translation type="vanished">اشکال زدایی</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>هشدار</translation>
+        <translation type="vanished">هشدار</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>انتقادی</translation>
+        <translation type="vanished">انتقادی</translation>
     </message>
 </context>
 <context>
@@ -8065,34 +8080,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>سیستم</translation>
+        <translation type="vanished">سیستم</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>نور</translation>
+        <translation type="vanished">نور</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>تاریک</translation>
+        <translation type="vanished">تاریک</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>طرح رنگ</translation>
+        <translation type="vanished">طرح رنگ</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>تاریک</translation>
+        <translation type="vanished">تاریک</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>نور</translation>
+        <translation type="vanished">نور</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>سیستم</translation>
+        <translation type="vanished">سیستم</translation>
     </message>
 </context>
 <context>

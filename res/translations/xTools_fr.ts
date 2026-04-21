@@ -1010,12 +1010,12 @@
     <message>
         <location filename="../../src/x/coap/coapclientui.ui" line="192"/>
         <source>Please input CoAP option</source>
-        <translation>Veuillez saisir l'option CoAP</translation>
+        <translation>Veuillez saisir l&apos;option CoAP</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapclientui.ui" line="207"/>
         <source>URI path</source>
-        <translation>Chemin de l'URI</translation>
+        <translation>Chemin de l&apos;URI</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapclientui.ui" line="236"/>
@@ -1109,7 +1109,7 @@
     <message>
         <location filename="../../src/x/coap/coapmsgview.ui" line="88"/>
         <source>Max records count</source>
-        <translation>Nombre maximum d'enregistrements</translation>
+        <translation>Nombre maximum d&apos;enregistrements</translation>
     </message>
 </context>
 <context>
@@ -1188,7 +1188,7 @@
     <message>
         <location filename="../../src/x/coap/coapresourceeditor.ui" line="74"/>
         <source>Uri Path</source>
-        <translation>Chemin d'Uri</translation>
+        <translation>Chemin d&apos;Uri</translation>
     </message>
 </context>
 <context>
@@ -2184,7 +2184,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/canbus/framelistitemeditor.ui" line="99"/>
         <source>Time sending interval</source>
-        <translation>Intervalle d'envoi de temps</translation>
+        <translation>Intervalle d&apos;envoi de temps</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/framelistitemeditor.ui" line="112"/>
@@ -2285,7 +2285,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/device/gpstestui.ui" line="113"/>
         <source>Altitude unit</source>
-        <translation>Unité d'altitude</translation>
+        <translation>Unité d&apos;altitude</translation>
     </message>
 </context>
 <context>
@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>Prendre le script</translation>
+        <translation type="vanished">Prendre le script</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>Numéro de série du cadre</translation>
+        <translation type="vanished">Numéro de série du cadre</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>Émetteur XYModem</translation>
+        <translation type="vanished">Émetteur XYModem</translation>
     </message>
 </context>
 <context>
@@ -2475,7 +2475,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="../../src/page/inputsettings.ui" line="48"/>
         <location filename="../../src/page/inputsettings.ui" line="126"/>
         <source>Hex format, such as: 0D 0A</source>
-        <translation>Format hexadécimal, tel que : 0D 0A</translation>
+        <translation>Format hexadécimal, tel que&#xa0;: 0D 0A</translation>
     </message>
     <message>
         <location filename="../../src/page/inputsettings.ui" line="58"/>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>Paramètres du tableau</translation>
+        <translation type="vanished">Paramètres du tableau</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>Paramètres de chaîne</translation>
+        <translation type="vanished">Paramètres de chaîne</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>Script Lua par défaut</translation>
+        <translation type="vanished">Script Lua par défaut</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>Script Lua de somme de contrôle</translation>
+        <translation type="vanished">Script Lua de somme de contrôle</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Script Lua (Chaîne)</translation>
+        <translation type="vanished">Script Lua (Chaîne)</translation>
     </message>
 </context>
 <context>
@@ -2857,12 +2857,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="106"/>
         <source>Cannot open file for writing: %1. Error: %2</source>
-        <translation>Impossible d'ouvrir le fichier en écriture : %1. </translation>
+        <translation>Impossible d&apos;ouvrir le fichier en écriture&#xa0;: %1. </translation>
     </message>
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="118"/>
         <source>Save file: %1. Error: %2</source>
-        <translation>Enregistrez le fichier : %1. </translation>
+        <translation>Enregistrez le fichier&#xa0;: %1. </translation>
     </message>
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="125"/>
@@ -2872,7 +2872,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="125"/>
         <source>Enter script name:</source>
-        <translation>Entrez le nom du script :</translation>
+        <translation>Entrez le nom du script&#xa0;:</translation>
     </message>
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="137"/>
@@ -2882,7 +2882,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="144"/>
         <source>Cannot create file: %1. Error: %2</source>
-        <translation>Impossible de créer le fichier : %1. </translation>
+        <translation>Impossible de créer le fichier&#xa0;: %1. </translation>
     </message>
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="170"/>
@@ -2892,17 +2892,17 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="171"/>
         <source>Enter new script name:</source>
-        <translation>Entrez le nouveau nom du script :</translation>
+        <translation>Entrez le nouveau nom du script&#xa0;:</translation>
     </message>
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="184"/>
         <source>Cannot save file as: %1. Error: %2</source>
-        <translation>Impossible d'enregistrer le fichier sous : %1. </translation>
+        <translation>Impossible d&apos;enregistrer le fichier sous&#xa0;: %1. </translation>
     </message>
     <message>
         <location filename="../../src/page/lua/luapanel.cpp" line="213"/>
         <source>Failed to open the script: %1</source>
-        <translation>Échec de l'ouverture du script : %1</translation>
+        <translation>Échec de l&apos;ouverture du script&#xa0;: %1</translation>
     </message>
 </context>
 <context>
@@ -2940,7 +2940,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/lua/luaview.ui" line="58"/>
         <source>Input data processing Lua script</source>
-        <translation>Script Lua de traitement des données d'entrée</translation>
+        <translation>Script Lua de traitement des données d&apos;entrée</translation>
     </message>
     <message>
         <location filename="../../src/page/lua/luaview.ui" line="74"/>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>Besoin de redémarrer</translation>
+        <translation type="vanished">Besoin de redémarrer</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>L'opération doit être redémarrée pour être effectuée, redémarrer l'application maintenant ?</translation>
+        <translation type="vanished">L&apos;opération doit être redémarrée pour être effectuée, redémarrer l&apos;application maintenant&#xa0;?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(Veuillez redémarrer votre application manuellement.)</translation>
+        <translation type="vanished">(Veuillez redémarrer votre application manuellement.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>Enregistrements de données</translation>
+        <translation type="vanished">Enregistrements de données</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Recherche</translation>
+        <translation type="vanished">Recherche</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>Prendre le script</translation>
+        <translation type="vanished">Prendre le script</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>Graphique linéaire</translation>
+        <translation type="vanished">Graphique linéaire</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>Graphique à barres</translation>
+        <translation type="vanished">Graphique à barres</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>Récepteur modem XY</translation>
+        <translation type="vanished">Récepteur modem XY</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>Liste de données prédéfinies</translation>
+        <translation type="vanished">Liste de données prédéfinies</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>Usine de protocoles</translation>
+        <translation type="vanished">Usine de protocoles</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Avertir</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">Prendre le script</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>Protocole</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>Masquer les panneaux de scripts</translation>
+        <translation type="vanished">Masquer les panneaux de scripts</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>Afficher les panneaux de scripts</translation>
+        <translation type="vanished">Afficher les panneaux de scripts</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>Panneaux</translation>
+        <translation type="vanished">Panneaux</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>Masquer/Afficher les panneaux</translation>
+        <translation type="vanished">Masquer/Afficher les panneaux</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>Modifier les données</translation>
+        <translation type="vanished">Modifier les données</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>Avertissement</translation>
+        <translation type="vanished">Avertissement</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>Le nom du groupe ne peut pas être vide.</translation>
+        <translation type="vanished">Le nom du groupe ne peut pas être vide.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>Les colonnes ne peuvent pas être vides.</translation>
+        <translation type="vanished">Les colonnes ne peuvent pas être vides.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>Le nom du groupe</translation>
+        <translation type="vanished">Le nom du groupe</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>Envoyer des groupes</translation>
+        <translation type="vanished">Envoyer des groupes</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -4760,7 +4765,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/log/logview.cpp" line="101"/>
         <source>Are you sure to clear all log messages?</source>
-        <translation>Êtes-vous sûr d'avoir effacé tous les messages du journal ?</translation>
+        <translation>Êtes-vous sûr d&apos;avoir effacé tous les messages du journal&#xa0;?</translation>
     </message>
     <message>
         <location filename="../../src/x/modbus/modbuscommon.cpp" line="35"/>
@@ -4926,7 +4931,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/coapcommon.cpp" line="346"/>
         <source>Are you sure to clear all items? This action cannot be undone.</source>
-        <translation>Êtes-vous sûr d'avoir effacé tous les éléments ? </translation>
+        <translation>Êtes-vous sûr d&apos;avoir effacé tous les éléments&#xa0;? </translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapcommon.cpp" line="356"/>
@@ -4936,7 +4941,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/coapcommon.cpp" line="357"/>
         <source>Are you sure to delete selected items? This action cannot be undone.</source>
-        <translation>Etes-vous sûr de supprimer les éléments sélectionnés ? </translation>
+        <translation>Etes-vous sûr de supprimer les éléments sélectionnés&#xa0;? </translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coappayloadview.cpp" line="141"/>
@@ -4946,7 +4951,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/coappayloadview.cpp" line="142"/>
         <source>Are you sure to clear all payloads?</source>
-        <translation>Êtes-vous sûr d'avoir effacé toutes les charges utiles ?</translation>
+        <translation>Êtes-vous sûr d&apos;avoir effacé toutes les charges utiles&#xa0;?</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapglobal.cpp" line="72"/>
@@ -4996,7 +5001,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/canbus/canbuscommon.cpp" line="24"/>
         <source>Error Frame</source>
-        <translation>Cadre d'erreur</translation>
+        <translation>Cadre d&apos;erreur</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/canbuscommon.cpp" line="34"/>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Scénario</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>Nouveau script</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>Veuillez entrer le nom du script :</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>Arrêter le script</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>Exécuter le script</translation>
     </message>
@@ -5269,7 +5284,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/search/searchpanel.ui" line="103"/>
         <source>Reversal filter logic</source>
-        <translation>Logique de filtre d'inversion</translation>
+        <translation>Logique de filtre d&apos;inversion</translation>
     </message>
     <message>
         <location filename="../../src/page/search/searchpanel.ui" line="110"/>
@@ -5295,7 +5310,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/search/searchpanel.cpp" line="136"/>
         <source>No lines passed the filter.</source>
-        <translation>Aucune ligne n'a dépassé le filtre.</translation>
+        <translation>Aucune ligne n&apos;a dépassé le filtre.</translation>
     </message>
     <message>
         <location filename="../../src/page/search/searchpanel.cpp" line="141"/>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Client TFTP</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>Adresse du serveur</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>Enregistrer le fichier</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>Télécharger</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>Télécharger le fichier</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>Progression du téléchargement</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>Télécharger le fichier</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>Parcourir</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>Progression du téléchargement</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>Télécharger</translation>
     </message>
@@ -5920,7 +5935,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="110"/>
         <source>Failed to bind UDP socket: %1</source>
-        <translation>Échec de la liaison du socket UDP : %1</translation>
+        <translation>Échec de la liaison du socket UDP&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="144"/>
@@ -5942,7 +5957,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="165"/>
         <source>Failed to open file: %1</source>
-        <translation>Échec de l'ouverture du fichier : %1</translation>
+        <translation>Échec de l&apos;ouverture du fichier&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="198"/>
@@ -5962,7 +5977,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="244"/>
         <source>Failed to open destination file: %1</source>
-        <translation>Échec de l'ouverture du fichier de destination : %1</translation>
+        <translation>Échec de l&apos;ouverture du fichier de destination&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="279"/>
@@ -6018,7 +6033,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="498"/>
         <source>Failed to write downloaded data to file.</source>
-        <translation>Échec de l'écriture des données téléchargées dans le fichier.</translation>
+        <translation>Échec de l&apos;écriture des données téléchargées dans le fichier.</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="507"/>
@@ -6169,12 +6184,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="39"/>
         <source>Failed to bind TFTP server socket: %1</source>
-        <translation>Échec de la liaison du socket du serveur TFTP : %1</translation>
+        <translation>Échec de la liaison du socket du serveur TFTP&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="50"/>
         <source>Listening on %1:%2</source>
-        <translation>En écoute sur %1 :%2</translation>
+        <translation>En écoute sur %1&#xa0;:%2</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="98"/>
@@ -6189,7 +6204,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="124"/>
         <source>Only RRQ and WRQ are accepted on the listener socket</source>
-        <translation>Seuls RRQ et WRQ sont acceptés sur le socket d'écoute</translation>
+        <translation>Seuls RRQ et WRQ sont acceptés sur le socket d&apos;écoute</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="132"/>
@@ -6204,7 +6219,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="153"/>
         <source>Requested file does not exist</source>
-        <translation>Le fichier demandé n'existe pas</translation>
+        <translation>Le fichier demandé n&apos;existe pas</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="194"/>
@@ -6214,7 +6229,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="205"/>
         <source>Running</source>
-        <translation>En cours d'exécution</translation>
+        <translation>En cours d&apos;exécution</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserverservice.cpp" line="226"/>
@@ -6227,12 +6242,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="56"/>
         <source>Failed to open file: %1</source>
-        <translation>Échec de l'ouverture du fichier : %1</translation>
+        <translation>Échec de l&apos;ouverture du fichier&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="68"/>
         <source>Failed to bind session socket: %1</source>
-        <translation>Échec de la liaison du socket de session : %1</translation>
+        <translation>Échec de la liaison du socket de session&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="78"/>
@@ -6268,12 +6283,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="166"/>
         <source>%1 failed: %2</source>
-        <translation>%1 a échoué : %2</translation>
+        <translation>%1 a échoué&#xa0;: %2</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="177"/>
         <source>%1 completed: %2</source>
-        <translation>%1 terminé : %2</translation>
+        <translation>%1 terminé&#xa0;: %2</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="198"/>
@@ -6288,7 +6303,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="216"/>
         <source>Remote peer reported an error</source>
-        <translation>L'homologue distant a signalé une erreur</translation>
+        <translation>L&apos;homologue distant a signalé une erreur</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="229"/>
@@ -6319,7 +6334,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="269"/>
         <source>Failed to write file data</source>
-        <translation>Échec de l'écriture des données du fichier</translation>
+        <translation>Échec de l&apos;écriture des données du fichier</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserversession.cpp" line="287"/>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>Commutateur de débit</translation>
+        <translation type="vanished">Commutateur de débit</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>Affichage des données</translation>
+        <translation type="vanished">Affichage des données</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>Question</translation>
+        <translation type="vanished">Question</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6778,7 +6793,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="68"/>
         <source>Are you sure you want to clear all frames?</source>
-        <translation>Etes-vous sûr de vouloir effacer toutes les images ?</translation>
+        <translation>Etes-vous sûr de vouloir effacer toutes les images&#xa0;?</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="82"/>
@@ -6815,7 +6830,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="107"/>
         <source>Are you sure you want to delete the selected frame?</source>
-        <translation>Êtes-vous sûr de vouloir supprimer le cadre sélectionné ?</translation>
+        <translation>Êtes-vous sûr de vouloir supprimer le cadre sélectionné&#xa0;?</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="121"/>
@@ -6832,7 +6847,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="130"/>
         <source>Failed to open file for writing.</source>
-        <translation>Échec de l'ouverture du fichier en écriture.</translation>
+        <translation>Échec de l&apos;ouverture du fichier en écriture.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="140"/>
@@ -6845,17 +6860,17 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="149"/>
         <source>Failed to open file for reading.</source>
-        <translation>Échec de l'ouverture du fichier en lecture.</translation>
+        <translation>Échec de l&apos;ouverture du fichier en lecture.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="161"/>
         <source>Failed to parse JSON: %1</source>
-        <translation>Échec de l'analyse de JSON : %1</translation>
+        <translation>Échec de l&apos;analyse de JSON&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/framelistview.cpp" line="168"/>
         <source>Invalid JSON format: expected an array of frames.</source>
-        <translation>Format JSON invalide : un tableau de frames attendu.</translation>
+        <translation>Format JSON invalide&#xa0;: un tableau de frames attendu.</translation>
     </message>
 </context>
 <context>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>ID de cadre invalide.</translation>
+        <translation type="vanished">ID de cadre invalide.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>Trame de données</translation>
+        <translation type="vanished">Trame de données</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>Trame de requête à distance</translation>
+        <translation type="vanished">Trame de requête à distance</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>Cadre d'erreur</translation>
+        <translation type="vanished">Cadre d&apos;erreur</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -6983,7 +6998,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/coapclientui.cpp" line="203"/>
         <source>Please enter the payload description:</source>
-        <translation>Veuillez saisir la description de la charge utile :</translation>
+        <translation>Veuillez saisir la description de la charge utile&#xa0;:</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapclientui.cpp" line="205"/>
@@ -6993,12 +7008,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/coapclientui.cpp" line="215"/>
         <source>Save Payload Failed</source>
-        <translation>Échec de l'enregistrement de la charge utile</translation>
+        <translation>Échec de l&apos;enregistrement de la charge utile</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapclientui.cpp" line="216"/>
         <source>Failed to save payload: %1</source>
-        <translation>Échec de l'enregistrement de la charge utile : %1</translation>
+        <translation>Échec de l&apos;enregistrement de la charge utile&#xa0;: %1</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapclientui.cpp" line="224"/>
@@ -7084,7 +7099,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/coapmsgview.cpp" line="105"/>
         <source>Are you sure to clear all messages?</source>
-        <translation>Etes-vous sûr d'effacer tous les messages ?</translation>
+        <translation>Etes-vous sûr d&apos;effacer tous les messages&#xa0;?</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapmsgview.cpp" line="140"/>
@@ -7133,7 +7148,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/coapresourcemodel.cpp" line="260"/>
         <source>URI Path</source>
-        <translation>Chemin de l'URI</translation>
+        <translation>Chemin de l&apos;URI</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapresourcemodel.cpp" line="262"/>
@@ -7194,12 +7209,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="220"/>
         <source>Export CoAP Configuration Failed</source>
-        <translation>Échec de l'exportation de la configuration CoAP</translation>
+        <translation>Échec de l&apos;exportation de la configuration CoAP</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="221"/>
         <source>Failed to open file %1 for writing.</source>
-        <translation>Échec de l'ouverture du fichier %1 en écriture.</translation>
+        <translation>Échec de l&apos;ouverture du fichier %1 en écriture.</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="234"/>
@@ -7211,22 +7226,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="../../src/x/coap/xcoap.cpp" line="258"/>
         <location filename="../../src/x/coap/xcoap.cpp" line="265"/>
         <source>Import CoAP Configuration Failed</source>
-        <translation>Échec de l'importation de la configuration CoAP</translation>
+        <translation>Échec de l&apos;importation de la configuration CoAP</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="248"/>
         <source>Failed to open file %1 for reading.</source>
-        <translation>Échec de l'ouverture du fichier %1 en lecture.</translation>
+        <translation>Échec de l&apos;ouverture du fichier %1 en lecture.</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="259"/>
         <source>Failed to parse JSON file %1: %2</source>
-        <translation>Échec de l'analyse du fichier JSON %1 : %2</translation>
+        <translation>Échec de l&apos;analyse du fichier JSON %1&#xa0;: %2</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/xcoap.cpp" line="266"/>
         <source>The content of file %1 is not a valid JSON object.</source>
-        <translation>Le contenu du fichier %1 n'est pas un objet JSON valide.</translation>
+        <translation>Le contenu du fichier %1 n&apos;est pas un objet JSON valide.</translation>
     </message>
 </context>
 <context>
@@ -7243,11 +7258,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Client</source>
-        <translation>Client</translation>
+        <translation type="vanished">Client</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation>Serveur</translation>
+        <translation type="vanished">Serveur</translation>
     </message>
 </context>
 <context>
@@ -7636,22 +7651,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>Déboguer</translation>
+        <translation type="vanished">Déboguer</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Critique</translation>
+        <translation type="vanished">Critique</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>Déboguer</translation>
+        <translation type="vanished">Déboguer</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Critique</translation>
+        <translation type="vanished">Critique</translation>
     </message>
 </context>
 <context>
@@ -8057,34 +8072,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>Système</translation>
+        <translation type="vanished">Système</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Lumière</translation>
+        <translation type="vanished">Lumière</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Sombre</translation>
+        <translation type="vanished">Sombre</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>Schéma de couleurs</translation>
+        <translation type="vanished">Schéma de couleurs</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Sombre</translation>
+        <translation type="vanished">Sombre</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Lumière</translation>
+        <translation type="vanished">Lumière</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>Système</translation>
+        <translation type="vanished">Système</translation>
     </message>
 </context>
 <context>
@@ -8120,7 +8135,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/common/xui.cpp" line="63"/>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>L'opération doit être redémarrée pour être effectuée, redémarrer l'application maintenant ?</translation>
+        <translation>L&apos;opération doit être redémarrée pour être effectuée, redémarrer l&apos;application maintenant&#xa0;?</translation>
     </message>
     <message>
         <location filename="../../src/common/xui.cpp" line="65"/>

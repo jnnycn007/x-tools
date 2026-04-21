@@ -193,7 +193,7 @@ private:
 PagePrivate::PagePrivate(Page *q_ptr)
     : QObject(q_ptr)
     , q(q_ptr)
-{ }
+{}
 
 void PagePrivate::initUi()
 {
@@ -907,7 +907,7 @@ Page::Page(ControllerDirection direction, QSettings *settings, QWidget *parent)
 
 #ifdef X_ENABLE_LUA
     d->m_luaView = new LuaView(this);
-    d->addTab(QString("Lua"), d->m_luaView);
+    d->addTab(tr("Lua Script"), d->m_luaView);
     item.name = QString("tabLua");
     item.panel = d->m_luaView;
     d->m_panels.append(item);

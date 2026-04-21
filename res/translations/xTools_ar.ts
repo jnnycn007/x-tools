@@ -1239,7 +1239,7 @@
     <message>
         <location filename="../../src/x/coap/coapserverui.ui" line="54"/>
         <source>Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">البروتوكول</translation>
     </message>
     <message>
         <location filename="../../src/x/coap/coapserverui.ui" line="64"/>
@@ -2301,7 +2301,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/tools/hexeditor/hexeditor.ui" line="14"/>
         <source>Hex Editor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">محرر سداسي عشري</translation>
     </message>
     <message>
         <location filename="../../src/tools/hexeditor/hexeditor.ui" line="27"/>
@@ -2604,7 +2604,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/page/charts/line/linesettings.ui" line="120"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">مساعدة</translation>
     </message>
     <message>
         <location filename="../../src/page/charts/line/linesettings.ui" line="104"/>
@@ -4218,9 +4218,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>تحذير</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">البروتوكول</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>البرنامج النصي</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>سكريبت جديد</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>يرجى إدخال اسم السكريبت:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>إيقاف السكريبت</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>تشغيل السكريبت</translation>
     </message>
@@ -5855,50 +5870,50 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="243"/>
         <location filename="../../src/tools/tftp/client/tftpclient.cpp" line="371"/>
         <source>TFTP Client</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">عميل TFTP</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation type="unfinished">عنوان الخادم</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation type="unfinished">تصفح</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6045,7 +6060,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <location filename="../../src/tools/tftp/server/tftpserver.cpp" line="123"/>
         <location filename="../../src/tools/tftp/server/tftpserver.cpp" line="129"/>
         <source>TFTP Server</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">خادم TFTP</translation>
     </message>
     <message>
         <location filename="../../src/tools/tftp/server/tftpserver.ui" line="23"/>
@@ -6735,7 +6750,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <message>
         <location filename="../../src/x/canbus/framelistmodel.cpp" line="189"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">الخيارات</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/framelistmodel.cpp" line="191"/>

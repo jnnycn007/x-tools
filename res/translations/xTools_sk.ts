@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>Vezmite skript</translation>
+        <translation type="vanished">Vezmite skript</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>Sériové číslo rámu</translation>
+        <translation type="vanished">Sériové číslo rámu</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>Vysielač XYModem</translation>
+        <translation type="vanished">Vysielač XYModem</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>Parametre tabuľky</translation>
+        <translation type="vanished">Parametre tabuľky</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>Parametre reťazca</translation>
+        <translation type="vanished">Parametre reťazca</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>Predvolený skript Lua</translation>
+        <translation type="vanished">Predvolený skript Lua</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>Kontrolný súčet Lua Script</translation>
+        <translation type="vanished">Kontrolný súčet Lua Script</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Lua Script (reťazec)</translation>
+        <translation type="vanished">Lua Script (reťazec)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>Je potrebné reštartovať</translation>
+        <translation type="vanished">Je potrebné reštartovať</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>Operácia sa musí reštartovať, aby bola vykonaná, reštartovať aplikáciu teraz?</translation>
+        <translation type="vanished">Operácia sa musí reštartovať, aby bola vykonaná, reštartovať aplikáciu teraz?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(Reštartujte aplikáciu manuálne.)</translation>
+        <translation type="vanished">(Reštartujte aplikáciu manuálne.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>Záznamy údajov</translation>
+        <translation type="vanished">Záznamy údajov</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Hľadať</translation>
+        <translation type="vanished">Hľadať</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>Vezmite skript</translation>
+        <translation type="vanished">Vezmite skript</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>Čiarový graf</translation>
+        <translation type="vanished">Čiarový graf</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>Stĺpcový graf</translation>
+        <translation type="vanished">Stĺpcový graf</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>XY-Modemový prijímač</translation>
+        <translation type="vanished">XY-Modemový prijímač</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>Prednastavený zoznam údajov</translation>
+        <translation type="vanished">Prednastavený zoznam údajov</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>Továreň na protokoly</translation>
+        <translation type="vanished">Továreň na protokoly</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Upozornenie</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">Vezmite skript</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>Protokol</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>Skryť panely skriptov</translation>
+        <translation type="vanished">Skryť panely skriptov</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>Zobraziť panely skriptov</translation>
+        <translation type="vanished">Zobraziť panely skriptov</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>Panely</translation>
+        <translation type="vanished">Panely</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>Skryť/Zobraziť panely</translation>
+        <translation type="vanished">Skryť/Zobraziť panely</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>Upraviť údaje</translation>
+        <translation type="vanished">Upraviť údaje</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>POZOR</translation>
+        <translation type="vanished">POZOR</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>Názov skupiny nemôže byť prázdny.</translation>
+        <translation type="vanished">Názov skupiny nemôže byť prázdny.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>Stĺpce nemôžu byť prázdne.</translation>
+        <translation type="vanished">Stĺpce nemôžu byť prázdne.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>Názov skupiny</translation>
+        <translation type="vanished">Názov skupiny</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>Odoslať skupiny</translation>
+        <translation type="vanished">Odoslať skupiny</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Skript</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>Nový skript</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>Prosím, zadajte názov skriptu:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>Zastaviť skript</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>Spustiť skript</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Klient TFTP</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>Adresa servera</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>Uložiť súbor</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>Stiahnuť</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>Stiahnite si súbor</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>Priebeh nahrávania</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>Nahrajte súbor</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>Prehľadávať</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>Priebeh sťahovania</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>Nahrať</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>Prepínač bitovej rýchlosti</translation>
+        <translation type="vanished">Prepínač bitovej rýchlosti</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>Zobrazenie údajov</translation>
+        <translation type="vanished">Zobrazenie údajov</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation type="vanished">Otázka</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>Neplatné ID rámca.</translation>
+        <translation type="vanished">Neplatné ID rámca.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>Dátový rámec</translation>
+        <translation type="vanished">Dátový rámec</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>Vzdialený rámec požiadavky</translation>
+        <translation type="vanished">Vzdialený rámec požiadavky</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>Error Frame</translation>
+        <translation type="vanished">Error Frame</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7243,11 +7258,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Client</source>
-        <translation>Klient</translation>
+        <translation type="vanished">Klient</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation>Server</translation>
+        <translation type="vanished">Server</translation>
     </message>
 </context>
 <context>
@@ -7636,22 +7651,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>Debug</translation>
+        <translation type="vanished">Debug</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Kritické</translation>
+        <translation type="vanished">Kritické</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>Debug</translation>
+        <translation type="vanished">Debug</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Kritické</translation>
+        <translation type="vanished">Kritické</translation>
     </message>
 </context>
 <context>
@@ -8057,34 +8072,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>Systém</translation>
+        <translation type="vanished">Systém</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Svetlo</translation>
+        <translation type="vanished">Svetlo</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Tmavý</translation>
+        <translation type="vanished">Tmavý</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>Farebná schéma</translation>
+        <translation type="vanished">Farebná schéma</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Tmavý</translation>
+        <translation type="vanished">Tmavý</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Svetlo</translation>
+        <translation type="vanished">Svetlo</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>Systém</translation>
+        <translation type="vanished">Systém</translation>
     </message>
 </context>
 <context>

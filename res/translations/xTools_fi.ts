@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>Ota Script</translation>
+        <translation type="vanished">Ota Script</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>Kehyksen sarjanumero</translation>
+        <translation type="vanished">Kehyksen sarjanumero</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>XYModem-lähetin</translation>
+        <translation type="vanished">XYModem-lähetin</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>Taulukon parametrit</translation>
+        <translation type="vanished">Taulukon parametrit</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>Merkkijonoparametrit</translation>
+        <translation type="vanished">Merkkijonoparametrit</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>Lua-oletuskomentosarja</translation>
+        <translation type="vanished">Lua-oletuskomentosarja</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>Tarkistussumma Lua Script</translation>
+        <translation type="vanished">Tarkistussumma Lua Script</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Lua-skripti (merkkijono)</translation>
+        <translation type="vanished">Lua-skripti (merkkijono)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>Tarve käynnistää uudelleen</translation>
+        <translation type="vanished">Tarve käynnistää uudelleen</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>Toiminto on käynnistettävä uudelleen suoritettuun, käynnistä sovellus uudelleen nyt?</translation>
+        <translation type="vanished">Toiminto on käynnistettävä uudelleen suoritettuun, käynnistä sovellus uudelleen nyt?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(Käynnistä sovelluksesi uudelleen manuaalisesti.)</translation>
+        <translation type="vanished">(Käynnistä sovelluksesi uudelleen manuaalisesti.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>Data Records</translation>
+        <translation type="vanished">Data Records</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Haku</translation>
+        <translation type="vanished">Haku</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>Ota Script</translation>
+        <translation type="vanished">Ota Script</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>Viivakaavio</translation>
+        <translation type="vanished">Viivakaavio</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>Pylväsdiagrammi</translation>
+        <translation type="vanished">Pylväsdiagrammi</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>XY-Modem vastaanotin</translation>
+        <translation type="vanished">XY-Modem vastaanotin</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>Esiasetettu tietoluettelo</translation>
+        <translation type="vanished">Esiasetettu tietoluettelo</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>Protokollatehdas</translation>
+        <translation type="vanished">Protokollatehdas</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Varoitus</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">Ota Script</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>pöytäkirja</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>Piilota komentosarjapaneelit</translation>
+        <translation type="vanished">Piilota komentosarjapaneelit</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>Näytä komentosarjapaneelit</translation>
+        <translation type="vanished">Näytä komentosarjapaneelit</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>Paneelit</translation>
+        <translation type="vanished">Paneelit</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>Piilota/näytä paneelit</translation>
+        <translation type="vanished">Piilota/näytä paneelit</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>Muokkaa tietoja</translation>
+        <translation type="vanished">Muokkaa tietoja</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation type="vanished">Varoitus</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>Ryhmän nimi ei voi olla tyhjä.</translation>
+        <translation type="vanished">Ryhmän nimi ei voi olla tyhjä.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>Sarakkeet eivät voi olla tyhjiä.</translation>
+        <translation type="vanished">Sarakkeet eivät voi olla tyhjiä.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>Ryhmän nimi</translation>
+        <translation type="vanished">Ryhmän nimi</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>Lähetä ryhmät</translation>
+        <translation type="vanished">Lähetä ryhmät</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>Käsikirjoitus</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>Uusi skripti</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>Syötä skriptin nimi:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>Keskeytä skripti</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>Aja skripti</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>TFTP-asiakas</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>Palvelimen osoite</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>Tallenna tiedosto</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>Lataa</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>Lataa tiedosto</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>Lähetyksen edistyminen</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>Lataa tiedosto</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>Selaa</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>Latauksen edistyminen</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>Lataa</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>Bittinopeuskytkin</translation>
+        <translation type="vanished">Bittinopeuskytkin</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>Datanäkymä</translation>
+        <translation type="vanished">Datanäkymä</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>Kysymys</translation>
+        <translation type="vanished">Kysymys</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>Virheellinen kehyksen tunnus.</translation>
+        <translation type="vanished">Virheellinen kehyksen tunnus.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>Tietokehys</translation>
+        <translation type="vanished">Tietokehys</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>Etäpyyntökehys</translation>
+        <translation type="vanished">Etäpyyntökehys</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>Virhekehys</translation>
+        <translation type="vanished">Virhekehys</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7243,11 +7258,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Client</source>
-        <translation>Asiakas</translation>
+        <translation type="vanished">Asiakas</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation>Palvelin</translation>
+        <translation type="vanished">Palvelin</translation>
     </message>
 </context>
 <context>
@@ -7636,30 +7651,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>Debug</translation>
+        <translation type="vanished">Debug</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation type="vanished">Varoitus</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Kriittinen</translation>
+        <translation type="vanished">Kriittinen</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>Debug</translation>
+        <translation type="vanished">Debug</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation type="vanished">Varoitus</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>Kriittinen</translation>
+        <translation type="vanished">Kriittinen</translation>
     </message>
 </context>
 <context>
@@ -8065,34 +8080,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>Järjestelmä</translation>
+        <translation type="vanished">Järjestelmä</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Kevyt</translation>
+        <translation type="vanished">Kevyt</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Tumma</translation>
+        <translation type="vanished">Tumma</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>Värimalli</translation>
+        <translation type="vanished">Värimalli</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>Tumma</translation>
+        <translation type="vanished">Tumma</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>Kevyt</translation>
+        <translation type="vanished">Kevyt</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>Järjestelmä</translation>
+        <translation type="vanished">Järjestelmä</translation>
     </message>
 </context>
 <context>

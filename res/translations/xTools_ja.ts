@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>スクリプトを取る</translation>
+        <translation type="vanished">スクリプトを取る</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>フレームのシリアル番号</translation>
+        <translation type="vanished">フレームのシリアル番号</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>XYモデム送信機</translation>
+        <translation type="vanished">XYモデム送信機</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>テーブルパラメータ</translation>
+        <translation type="vanished">テーブルパラメータ</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>文字列パラメータ</translation>
+        <translation type="vanished">文字列パラメータ</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>デフォルトの Lua スクリプト</translation>
+        <translation type="vanished">デフォルトの Lua スクリプト</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>チェックサム Lua スクリプト</translation>
+        <translation type="vanished">チェックサム Lua スクリプト</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Lua スクリプト(文字列)</translation>
+        <translation type="vanished">Lua スクリプト(文字列)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>再起動が必要です</translation>
+        <translation type="vanished">再起動が必要です</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>操作を有効にするには再起動する必要があります。今すぐアプリケーションを再起動しますか?</translation>
+        <translation type="vanished">操作を有効にするには再起動する必要があります。今すぐアプリケーションを再起動しますか?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(アプリケーションを手動で再起動してください。)</translation>
+        <translation type="vanished">(アプリケーションを手動で再起動してください。)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>データレコード</translation>
+        <translation type="vanished">データレコード</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>検索</translation>
+        <translation type="vanished">検索</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>スクリプトを取る</translation>
+        <translation type="vanished">スクリプトを取る</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>折れ線グラフ</translation>
+        <translation type="vanished">折れ線グラフ</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>棒グラフ</translation>
+        <translation type="vanished">棒グラフ</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>XYモデム受信機</translation>
+        <translation type="vanished">XYモデム受信機</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>プリセットデータ一覧</translation>
+        <translation type="vanished">プリセットデータ一覧</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>プロトコルファクトリー</translation>
+        <translation type="vanished">プロトコルファクトリー</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>警告</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">スクリプトを取る</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>プロトコル</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>スクリプトパネルを非表示にする</translation>
+        <translation type="vanished">スクリプトパネルを非表示にする</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>スクリプトパネルを表示</translation>
+        <translation type="vanished">スクリプトパネルを表示</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>パネル</translation>
+        <translation type="vanished">パネル</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>パネルの表示/非表示</translation>
+        <translation type="vanished">パネルの表示/非表示</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>データの編集</translation>
+        <translation type="vanished">データの編集</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="vanished">警告</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>グループ名を空にすることはできません。</translation>
+        <translation type="vanished">グループ名を空にすることはできません。</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>列を空にすることはできません。</translation>
+        <translation type="vanished">列を空にすることはできません。</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>グループ名</translation>
+        <translation type="vanished">グループ名</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>グループを送信する</translation>
+        <translation type="vanished">グループを送信する</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>スクリプト</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>新しいスクリプト</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>スクリプト名を入力してください：</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>スクリプトを停止</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>スクリプトを実行</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>TFTPクライアント</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>サーバーアドレス</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>ファイルの保存</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>ダウンロード</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>ファイルをダウンロードする</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>アップロードの進行状況</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>ファイルをアップロードする</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>ブラウズ</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>ダウンロードの進行状況</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>アップロード</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>ビットレートスイッチ</translation>
+        <translation type="vanished">ビットレートスイッチ</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>データビュー</translation>
+        <translation type="vanished">データビュー</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>質問</translation>
+        <translation type="vanished">質問</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>フレームIDが無効です。</translation>
+        <translation type="vanished">フレームIDが無効です。</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>データフレーム</translation>
+        <translation type="vanished">データフレーム</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>リモートリクエストフレーム</translation>
+        <translation type="vanished">リモートリクエストフレーム</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>エラーフレーム</translation>
+        <translation type="vanished">エラーフレーム</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7243,11 +7258,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Client</source>
-        <translation>クライアント</translation>
+        <translation type="vanished">クライアント</translation>
     </message>
     <message>
         <source>Server</source>
-        <translation>サーバ</translation>
+        <translation type="vanished">サーバ</translation>
     </message>
 </context>
 <context>
@@ -7636,30 +7651,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>デバッグ</translation>
+        <translation type="vanished">デバッグ</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="vanished">警告</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>致命的</translation>
+        <translation type="vanished">致命的</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>デバッグ</translation>
+        <translation type="vanished">デバッグ</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation type="vanished">警告</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>致命的</translation>
+        <translation type="vanished">致命的</translation>
     </message>
 </context>
 <context>
@@ -8065,34 +8080,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>システム</translation>
+        <translation type="vanished">システム</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>ライト</translation>
+        <translation type="vanished">ライト</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>暗い</translation>
+        <translation type="vanished">暗い</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>配色</translation>
+        <translation type="vanished">配色</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>暗い</translation>
+        <translation type="vanished">暗い</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>ライト</translation>
+        <translation type="vanished">ライト</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>システム</translation>
+        <translation type="vanished">システム</translation>
     </message>
 </context>
 <context>

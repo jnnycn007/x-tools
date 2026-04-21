@@ -2438,15 +2438,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>InputPanelsManager</name>
     <message>
         <source>Lua Script</source>
-        <translation>קח תסריט</translation>
+        <translation type="vanished">קח תסריט</translation>
     </message>
     <message>
         <source>Frame Serial Number</source>
-        <translation>מספר סידורי של מסגרת</translation>
+        <translation type="vanished">מספר סידורי של מסגרת</translation>
     </message>
     <message>
         <source>XYModem Sender</source>
-        <translation>משדר XYModem</translation>
+        <translation type="vanished">משדר XYModem</translation>
     </message>
 </context>
 <context>
@@ -2827,23 +2827,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Table Parameters</source>
-        <translation>פרמטרים של טבלה</translation>
+        <translation type="vanished">פרמטרים של טבלה</translation>
     </message>
     <message>
         <source>String Parameters</source>
-        <translation>פרמטרים של מחרוזת</translation>
+        <translation type="vanished">פרמטרים של מחרוזת</translation>
     </message>
     <message>
         <source>Default Lua Script</source>
-        <translation>ברירת המחדל של Lua Script</translation>
+        <translation type="vanished">ברירת המחדל של Lua Script</translation>
     </message>
     <message>
         <source>Checksum Lua Script</source>
-        <translation>Checksum Lua Script</translation>
+        <translation type="vanished">Checksum Lua Script</translation>
     </message>
     <message>
         <source>Lua Script(String)</source>
-        <translation>Lua Script(מחרוזת)</translation>
+        <translation type="vanished">Lua Script(מחרוזת)</translation>
     </message>
 </context>
 <context>
@@ -3039,15 +3039,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Need to Reboot</source>
-        <translation>צריך לאתחל</translation>
+        <translation type="vanished">צריך לאתחל</translation>
     </message>
     <message>
         <source>The operation need to reboot to effected, reboot the application now?</source>
-        <translation>יש צורך לאתחל את הפעולה לביצוע, לאתחל את היישום כעת?</translation>
+        <translation type="vanished">יש צורך לאתחל את הפעולה לביצוע, לאתחל את היישום כעת?</translation>
     </message>
     <message>
         <source>(Please reboot your application manually.)</source>
-        <translation>(אנא הפעל מחדש את האפליקציה שלך באופן ידני.)</translation>
+        <translation type="vanished">(אנא הפעל מחדש את האפליקציה שלך באופן ידני.)</translation>
     </message>
     <message>
         <location filename="../../src/mainwindow.cpp" line="493"/>
@@ -3977,27 +3977,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>OutputPanelsManager</name>
     <message>
         <source>Data Records</source>
-        <translation>רשומות נתונים</translation>
+        <translation type="vanished">רשומות נתונים</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>לְחַפֵּשׂ</translation>
+        <translation type="vanished">לְחַפֵּשׂ</translation>
     </message>
     <message>
         <source>Lua Script</source>
-        <translation>קח תסריט</translation>
+        <translation type="vanished">קח תסריט</translation>
     </message>
     <message>
         <source>Line Chart</source>
-        <translation>תרשים קווים</translation>
+        <translation type="vanished">תרשים קווים</translation>
     </message>
     <message>
         <source>Bar Chart</source>
-        <translation>תרשים עמודות</translation>
+        <translation type="vanished">תרשים עמודות</translation>
     </message>
     <message>
         <source>XY-Modem Receiver</source>
-        <translation>מקלט XY-מודם</translation>
+        <translation type="vanished">מקלט XY-מודם</translation>
     </message>
 </context>
 <context>
@@ -4126,7 +4126,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>IO</source>
-        <translation>IO</translation>
+        <translation type="vanished">IO</translation>
     </message>
     <message>
         <location filename="../../src/page/page.ui" line="294"/>
@@ -4140,7 +4140,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Preset data list</source>
-        <translation>רשימת נתונים מוגדרת מראש</translation>
+        <translation type="vanished">רשימת נתונים מוגדרת מראש</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="852"/>
@@ -4164,7 +4164,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Protocol Factory</source>
-        <translation>מפעל פרוטוקול</translation>
+        <translation type="vanished">מפעל פרוטוקול</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="903"/>
@@ -4218,17 +4218,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>אזהרה</translation>
     </message>
     <message>
+        <location filename="../../src/page/page.cpp" line="910"/>
+        <source>Lua Script</source>
+        <translation type="unfinished">קח תסריט</translation>
+    </message>
+    <message>
         <location filename="../../src/page/page.cpp" line="918"/>
         <source>Protocol</source>
         <translation>פּרוֹטוֹקוֹל</translation>
     </message>
     <message>
         <source>Hide Scripts Panels</source>
-        <translation>הסתר חלוניות סקריפטים</translation>
+        <translation type="vanished">הסתר חלוניות סקריפטים</translation>
     </message>
     <message>
         <source>Show Scripts Panels</source>
-        <translation>הצג לוחות סקריפטים</translation>
+        <translation type="vanished">הצג לוחות סקריפטים</translation>
     </message>
     <message>
         <location filename="../../src/page/page.cpp" line="579"/>
@@ -4240,11 +4245,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>PanelManager</name>
     <message>
         <source>Panels</source>
-        <translation>פאנלים</translation>
+        <translation type="vanished">פאנלים</translation>
     </message>
     <message>
         <source>Hide/Show Panels</source>
-        <translation>הסתר/הצג לוחות</translation>
+        <translation type="vanished">הסתר/הצג לוחות</translation>
     </message>
 </context>
 <context>
@@ -4404,7 +4409,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Edit Data</source>
-        <translation>ערוך נתונים</translation>
+        <translation type="vanished">ערוך נתונים</translation>
     </message>
 </context>
 <context>
@@ -4466,23 +4471,23 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Warning</source>
-        <translation>אַזהָרָה</translation>
+        <translation type="vanished">אַזהָרָה</translation>
     </message>
     <message>
         <source>The group name cannot be empty.</source>
-        <translation>שם הקבוצה לא יכול להיות ריק.</translation>
+        <translation type="vanished">שם הקבוצה לא יכול להיות ריק.</translation>
     </message>
     <message>
         <source>The columns cannot be empty.</source>
-        <translation>העמודות לא יכולות להיות ריקות.</translation>
+        <translation type="vanished">העמודות לא יכולות להיות ריקות.</translation>
     </message>
     <message>
         <source>The group name &quot;%1&quot; already exists. Replace it?</source>
-        <translation>שם הקבוצה</translation>
+        <translation type="vanished">שם הקבוצה</translation>
     </message>
     <message>
         <source>Send Groups</source>
-        <translation>שלח קבוצות</translation>
+        <translation type="vanished">שלח קבוצות</translation>
     </message>
 </context>
 <context>
@@ -4519,7 +4524,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>ProtocolFactory</name>
     <message>
         <source>...</source>
-        <translation>...</translation>
+        <translation type="vanished">...</translation>
     </message>
 </context>
 <context>
@@ -5180,22 +5185,32 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>תַסרִיט</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="164"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="186"/>
         <source>New Script</source>
         <translation>סקריפט חדש</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="165"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="187"/>
         <source>Please input the script name:</source>
         <translation>אנא הזן את שם הסקריפט:</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="268"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="210"/>
+        <source>File Exists</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="211"/>
+        <source>The file &quot;%1&quot; already exists.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="292"/>
         <source>Stop the script</source>
         <translation>עצור את הסקריפט</translation>
     </message>
     <message>
-        <location filename="../../src/page/scripts/scriptbase.cpp" line="283"/>
+        <location filename="../../src/page/scripts/scriptbase.cpp" line="307"/>
         <source>Run the script</source>
         <translation>הרץ את הסקריפט</translation>
     </message>
@@ -5858,47 +5873,47 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>לקוח TFTP</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="51"/>
         <source>Server address</source>
         <translation>כתובת שרת</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="27"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="61"/>
         <source>Save file</source>
         <translation>שמור קובץ</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="34"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="120"/>
         <source>Download</source>
         <translation>הורד</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="41"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="30"/>
         <source>Download file</source>
         <translation>הורד קובץ</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="48"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="44"/>
         <source>Upload progress</source>
         <translation>התקדמות ההעלאה</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="55"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="20"/>
         <source>Upload file</source>
         <translation>העלה קובץ</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="62"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="37"/>
         <source>Browse</source>
         <translation>לְדַפדֵף</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="82"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="75"/>
         <source>Download progress</source>
         <translation>התקדמות ההורדה</translation>
     </message>
     <message>
-        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="109"/>
+        <location filename="../../src/tools/tftp/client/tftpclient.ui" line="96"/>
         <source>Upload</source>
         <translation>העלה</translation>
     </message>
@@ -6533,7 +6548,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Bitrate switch</source>
-        <translation>מתג קצב סיביות</translation>
+        <translation type="vanished">מתג קצב סיביות</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="137"/>
@@ -6617,7 +6632,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data View</source>
-        <translation>תצוגת נתונים</translation>
+        <translation type="vanished">תצוגת נתונים</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.ui" line="211"/>
@@ -6700,7 +6715,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xCanBus::DataView</name>
     <message>
         <source>Question</source>
-        <translation>שְׁאֵלָה</translation>
+        <translation type="vanished">שְׁאֵלָה</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/dataview.cpp" line="86"/>
@@ -6938,7 +6953,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Invalid frame ID.</source>
-        <translation>מזהה מסגרת לא חוקי.</translation>
+        <translation type="vanished">מזהה מסגרת לא חוקי.</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="361"/>
@@ -6952,15 +6967,15 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Data Frame</source>
-        <translation>מסגרת נתונים</translation>
+        <translation type="vanished">מסגרת נתונים</translation>
     </message>
     <message>
         <source>Remote Request Frame</source>
-        <translation>מסגרת בקשה מרחוק</translation>
+        <translation type="vanished">מסגרת בקשה מרחוק</translation>
     </message>
     <message>
         <source>Error Frame</source>
-        <translation>מסגרת שגיאה</translation>
+        <translation type="vanished">מסגרת שגיאה</translation>
     </message>
     <message>
         <location filename="../../src/x/canbus/xcanbus.cpp" line="451"/>
@@ -7238,7 +7253,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <source>Server</source>
-        <translation>שרת</translation>
+        <translation type="vanished">שרת</translation>
     </message>
 </context>
 <context>
@@ -7627,22 +7642,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xLog::LogView</name>
     <message>
         <source>Debug</source>
-        <translation>לְנַפּוֹת</translation>
+        <translation type="vanished">לְנַפּוֹת</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>קרִיטִי</translation>
+        <translation type="vanished">קרִיטִי</translation>
     </message>
 </context>
 <context>
     <name>xLog::LogViewPrivate</name>
     <message>
         <source>Debug</source>
-        <translation>לְנַפּוֹת</translation>
+        <translation type="vanished">לְנַפּוֹת</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation>קרִיטִי</translation>
+        <translation type="vanished">קרִיטִי</translation>
     </message>
 </context>
 <context>
@@ -8048,34 +8063,34 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <name>xTools::ThemeManager</name>
     <message>
         <source>System</source>
-        <translation>מַעֲרֶכֶת</translation>
+        <translation type="vanished">מַעֲרֶכֶת</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>אוֹר</translation>
+        <translation type="vanished">אוֹר</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>כֵּהֶה</translation>
+        <translation type="vanished">כֵּהֶה</translation>
     </message>
 </context>
 <context>
     <name>xTools::ThemeManagerPrivate</name>
     <message>
         <source>Color Scheme</source>
-        <translation>ערכת צבעים</translation>
+        <translation type="vanished">ערכת צבעים</translation>
     </message>
     <message>
         <source>Dark</source>
-        <translation>כֵּהֶה</translation>
+        <translation type="vanished">כֵּהֶה</translation>
     </message>
     <message>
         <source>Light</source>
-        <translation>אוֹר</translation>
+        <translation type="vanished">אוֹר</translation>
     </message>
     <message>
         <source>System</source>
-        <translation>מַעֲרֶכֶת</translation>
+        <translation type="vanished">מַעֲרֶכֶת</translation>
     </message>
 </context>
 <context>
