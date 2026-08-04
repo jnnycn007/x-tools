@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * Copyright 2025-2025 x-tools-author(x-tools@outlook.com). All rights reserved.
+ * Copyright 2025-2026 x-tools-author(x-tools@outlook.com). All rights reserved.
  *
  * The file is encoded using "utf8 with bom", it is a part of eTools project.
  *
@@ -14,8 +14,7 @@
 ScriptJs::ScriptJs(QWidget *parent)
     : ScriptBase(parent)
 {
-    auto ret = new xTools::SyntaxHighlighterJs(scriptDocument());
-    Q_UNUSED(ret);
+    m_highlighter = new xTools::SyntaxHighlighterJs(scriptDocument());
 }
 
 ScriptJs::~ScriptJs() {}
@@ -27,7 +26,7 @@ ScriptRunner *ScriptJs::newRunner()
 
 QString ScriptJs::helpUrl() const
 {
-    return QStringLiteral("https://x-tools-author.github.io/x-tools/docs/06.scripts/2.javascript/");
+    return QString("https://x-tools-author.github.io/x-tools/docs/01.xtools/scripts/javascript/");
 }
 
 QString ScriptJs::scriptSuffix() const

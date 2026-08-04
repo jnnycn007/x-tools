@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * Copyright 2025-2025 x-tools-author(x-tools@outlook.com). All rights reserved.
+ * Copyright 2025-2026 x-tools-author(x-tools@outlook.com). All rights reserved.
  *
  * The file is encoded using "utf8 with bom", it is a part of eTools project.
  *
@@ -9,6 +9,10 @@
 #pragma once
 
 #include "scriptbase.h"
+
+namespace xTools {
+class SyntaxHighlighterJs;
+}
 
 class ScriptJs : public ScriptBase
 {
@@ -22,4 +26,7 @@ protected:
     QString helpUrl() const override;
     QString scriptSuffix() const override;
     QString scriptDir() const override;
+
+private:
+    xTools::SyntaxHighlighterJs *m_highlighter{nullptr};
 };
