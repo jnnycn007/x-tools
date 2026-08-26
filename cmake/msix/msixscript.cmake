@@ -9,12 +9,14 @@
 
 set(bin_dir ${argRoot}/${argTarget})
 if(argRenameTarget)
-  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -rf ${argPacketName} || "||" ${CMAKE_COMMAND} -E
-                          true WORKING_DIRECTORY ${argRoot})
+  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -rf ${argPacketName} || ${CMAKE_COMMAND} -E true
+                  WORKING_DIRECTORY ${argRoot})
   execute_process(COMMAND ${CMAKE_COMMAND} -E copy_directory ../${argTarget} ${argPacketName}
                   WORKING_DIRECTORY ${argRoot})
-  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.pdb
-                  COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.ilk)
+  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.pdb || ${CMAKE_COMMAND}
+                          -E true)
+  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.ilk || ${CMAKE_COMMAND}
+                          -E true)
   execute_process(COMMAND ${CMAKE_COMMAND} -E rename ${argPacketName}/${argTarget}.exe
                           ${argPacketName}/${argPacketName}.exe WORKING_DIRECTORY ${argRoot})
   execute_process(COMMAND ${CMAKE_COMMAND} -E tar "cf" ${argPacketName}.zip "--format=zip"
@@ -25,8 +27,10 @@ else()
                   WORKING_DIRECTORY ${argRoot})
   execute_process(COMMAND ${CMAKE_COMMAND} -E copy_directory ../${argTarget} ${argTarget}
                   WORKING_DIRECTORY ${argRoot})
-  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.pdb
-                  COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.ilk)
+  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.pdb || ${CMAKE_COMMAND}
+                          -E true)
+  execute_process(COMMAND ${CMAKE_COMMAND} -E rm -f ${bin_dir}/${argTarget}.ilk || ${CMAKE_COMMAND}
+                          -E true)
   execute_process(COMMAND ${CMAKE_COMMAND} -E tar "cf" ${argTarget}.zip "--format=zip"
                           "${argTarget}" WORKING_DIRECTORY ${argRoot})
 endif()
