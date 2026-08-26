@@ -27,25 +27,30 @@ runs:
         cmake -DCMAKE_PREFIX_PATH='${{ github.workspace }}/Qt/5.15.2/win64_msvc2019_64' -DCMAKE_BUILD_TYPE=Release -DX_VERSION_OVERRIDE:STRING=${{ inputs.tag }} -G "Ninja" ../
         cmake --build . --target all
         cmake --build . --target xTools_zip
-    - name: Check for Artifacts(64bits)
+    - name: Install Qt(32bits)
+      uses: jurplel/install-qt-action@v4
+      with:
+        version: "5.15.2"
+        target: "desktop"
+        arch: "win32_msvc2019"
+        dir: "${{ github.workspace }}"
+        modules: "qtcharts"
+    - name: Build for Windows 7(32bits)
+      shell: cmd
+      run: |
+        git fetch --tags
+        mkdir build
+        cd build
+        call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" x86
+        cmake -DCMAKE_PREFIX_PATH='${{ github.workspace }}/Qt/5.15.2/win32_msvc2019' -DCMAKE_BUILD_TYPE=Release -DX_VERSION_OVERRIDE:STRING=${{ inputs.tag }} -G "Ninja" ../
+        cmake --build . --target all
+        cmake --build . --target xTools_zip
+    - name: Check for Artifacts
       shell: cmd
       run: |
         for %%f in (bin\5.15.2\Windows\Release\xTools-zip\*.zip) do echo "%%f"
-    - name: Upload Release Asset for Windows(64bits)
+    - name: Upload Release Asset for Windows 7
       if: ${{ inputs.tag != '' }}
       shell: cmd
       run: |
         for %%f in (bin\5.15.2\Windows\Release\xTools-zip\*.zip) do gh release upload ${{ inputs.tag }} "%%f" --clobber
-    - name: Build for Windows 7(32bits)
-      shell: cmd
-      run: |
-        scripts\ci-build-windows-7.bat ${{ inputs.tag }}
-    - name: Check for Artifacts(32bits)
-      shell: cmd
-      run: |
-        for %%f in (bin\5.15.14\Windows\Release\xTools-zip\*.zip) do echo "%%f"
-    - name: Upload Release Asset for Windows(32bits)
-      if: ${{ inputs.tag != '' }}
-      shell: cmd
-      run: |
-        for %%f in (bin\5.15.14\Windows\Release\xTools-zip\*.zip) do gh release upload ${{ inputs.tag }} "%%f" --clobber
