@@ -1,4 +1,6 @@
 # https://github.com/x-tools-author/x-tools/releases/download/v7.6.1/Qt5.6.3.7z
+# https://master.dl.sourceforge.net/project/fsu0413-qtbuilds/Qt5.6/Windows-x86/Qt5.6.3-Windows-x86-MinGW4.9.4-20200104.7z?viasf=1&fid=bd25050269beb2b4&e=1787807811&st=VDptmIzHuJTdnaPPFkP2KA
+# https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/tools_mingw/qt.tools.win32_mingw492/4.9.2-1i686-4.9.2-release-posix-dwarf-rt_v3-rev1.7z
 set(qt_5_6_3 "Qt5.6.3")
 set(qt_5_6_3_url "https://github.com/x-tools-author/x-tools/releases/download/v7.6.1")
 set(qt_5_6_3_url "${qt_5_6_3_url}/${qt_5_6_3}.7z")
