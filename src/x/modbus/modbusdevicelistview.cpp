@@ -1,5 +1,5 @@
 /***************************************************************************************************
- * Copyright 2025-2025 x-tools-author(x-tools@outlook.com). All rights reserved.
+ * Copyright 2025-2026 x-tools-author(x-tools@outlook.com). All rights reserved.
  *
  * The file is encoded using "utf8 with bom", it is a part of xTools project.
  *
@@ -21,6 +21,7 @@
 #include "modbuscommon.h"
 #include "modbusdevice.h"
 #include "modbusdeviceeditor.h"
+#include "modbusdevicelistitemdelegate.h"
 #include "modbusdevicelistmodel.h"
 #include "modbusdevicelistmodelfilter.h"
 #include "modbusregister.h"
@@ -56,8 +57,11 @@ ModbusDeviceListView::ModbusDeviceListView(QWidget *parent)
     m_model = new ModbusDeviceListModel(this);
     m_filter = new ModbusDeviceListModelFilter(this);
     m_filter->setSourceModel(m_model);
+    m_itemDelegate = new ModbusDeviceListItemDelegate(this);
     ui->treeView->setModel(m_filter);
     ui->treeView->header()->hide();
+    ui->treeView->setItemDelegate(m_itemDelegate);
+    ui->treeView->setIndentation(16);
 #if 1
     ui->treeView->setExpandsOnDoubleClick(false);
 #endif

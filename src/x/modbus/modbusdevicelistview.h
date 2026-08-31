@@ -23,6 +23,7 @@ class ModbusRegister;
 class ModbusDeviceListModel;
 class ModbusRegisterTableView;
 class ModbusDeviceListModelFilter;
+class ModbusDeviceListItemDelegate;
 
 class ModbusDeviceListView : public QWidget
 {
@@ -56,6 +57,7 @@ private:
     Ui::ModbusDeviceListView *ui;
     ModbusDeviceListModel *m_model;
     ModbusDeviceListModelFilter *m_filter;
+    ModbusDeviceListItemDelegate *m_itemDelegate;
 
 private:
     void onNewDevice();
