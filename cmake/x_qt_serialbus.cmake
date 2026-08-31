@@ -57,3 +57,69 @@ else()
   add_compile_definitions(X_ENABLE_X_CANBUS=0)
   remove_all_x_canbus_files()
 endif()
+
+# --------------------------------------------------------------------------------------------------
+# PCAN-Base
+if(NOT WIN32)
+  return()
+endif()
+
+# https://github.com/x-tools-author/x-tools-dependencies/releases/download/dependencies/PCAN-Basic-V5.1.0.1194.zip
+set(PCAN_BASE_URL_BASE "https://github.com/x-tools-author/x-tools-dependencies/releases")
+set(PCAN_BASE_URL_BASE "${PCAN_BASE_URL_BASE}/download/dependencies")
+set(PCAN_BASE_VERSION "5.1.0.1194")
+set(PCAN_BASE_NAME "PCAN-Basic-V${PCAN_BASE_VERSION}")
+set(PCAN_BASE_URL "${PCAN_BASE_URL_BASE}/${PCAN_BASE_NAME}.zip")
+
+function(x_auto_deploy_pcan_base target)
+  if(NOT WIN32)
+    return()
+  endif()
+
+  if(CMAKE_SIZEOF_VOID_P EQUAL 8) # x64
+    set(PCAN_BASE_DLL "${X_3RD_DIR}/${PCAN_BASE_NAME}/x64/PCANBasic.dll")
+  else() # x86
+    set(PCAN_BASE_DLL "${X_3RD_DIR}/${PCAN_BASE_NAME}/x86/PCANBasic.dll")
+  endif()
+
+  add_custom_command(
+    TARGET ${target}
+    POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different "${PCAN_BASE_DLL}" $<TARGET_FILE_DIR:${target}>)
+endfunction()
+
+# --------------------------------------------------------------------------------------------------
+# Download the PCAN-Base repository if it does not exist
+if(NOT EXISTS "${X_3RD_DIR}/${PCAN_BASE_NAME}.zip")
+  message(STATUS "Downloading ${PCAN_BASE_NAME} from ${PCAN_BASE_URL}")
+  file(
+    DOWNLOAD "${PCAN_BASE_URL}" "${X_3RD_DIR}/${PCAN_BASE_NAME}.zip"
+    SHOW_PROGRESS
+    STATUS DOWNLOAD_STATUS)
+  list(GET DOWNLOAD_STATUS 0 DOWNLOAD_RESULT)
+  if(NOT DOWNLOAD_RESULT EQUAL 0)
+    message(WARNING "Failed to download ${PCAN_BASE_NAME} from ${PCAN_BASE_URL}")
+    message(WARNING "PeakCAN plugin will be disabled.")
+    # Remove pcan-base files
+    file(REMOVE "${X_3RD_DIR}/${PCAN_BASE_NAME}.zip")
+    return()
+  endif()
+endif()
+
+# --------------------------------------------------------------------------------------------------
+# Unzip the PCAN-Base repository if it does not exist
+if(NOT EXISTS "${X_3RD_DIR}/${PCAN_BASE_NAME}/ReadMe.txt")
+  message(STATUS "Unzipping ${PCAN_BASE_NAME}...")
+  execute_process(COMMAND ${CMAKE_COMMAND} -E make_directory "${X_3RD_DIR}/${PCAN_BASE_NAME}")
+  execute_process(
+    COMMAND ${CMAKE_COMMAND} -E tar xzf "${X_3RD_DIR}/${PCAN_BASE_NAME}.zip"
+    WORKING_DIRECTORY "${X_3RD_DIR}/${PCAN_BASE_NAME}"
+    RESULT_VARIABLE UNZIP_RESULT)
+  if(NOT UNZIP_RESULT EQUAL 0)
+    message(WARNING "Failed to unzip ${PCAN_BASE_NAME}")
+    message(WARNING "PeakCAN plugin will be disabled.")
+    # Remove pcan-base files
+    file(REMOVE "${X_3RD_DIR}/${PCAN_BASE_NAME}.zip")
+    return()
+  endif()
+endif()
