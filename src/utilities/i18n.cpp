@@ -162,7 +162,6 @@ private:
 #endif
         path += "/translations/";
         return path;
-        ;
     }
 };
 
