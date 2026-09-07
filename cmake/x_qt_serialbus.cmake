@@ -58,12 +58,6 @@ else()
   remove_all_x_canbus_files()
 endif()
 
-# --------------------------------------------------------------------------------------------------
-# PCAN-Base
-if(NOT WIN32)
-  return()
-endif()
-
 # https://github.com/x-tools-author/x-tools-dependencies/releases/download/dependencies/PCAN-Basic-V5.1.0.1194.zip
 set(PCAN_BASE_URL_BASE "https://github.com/x-tools-author/x-tools-dependencies/releases")
 set(PCAN_BASE_URL_BASE "${PCAN_BASE_URL_BASE}/download/dependencies")
@@ -87,6 +81,12 @@ function(x_auto_deploy_pcan_base target)
     POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different "${PCAN_BASE_DLL}" $<TARGET_FILE_DIR:${target}>)
 endfunction()
+
+# --------------------------------------------------------------------------------------------------
+# PCAN-Base, just for Windows platform yet...
+if(NOT WIN32)
+  return()
+endif()
 
 # --------------------------------------------------------------------------------------------------
 # Download the PCAN-Base repository if it does not exist
